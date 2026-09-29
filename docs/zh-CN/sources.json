@@ -1,0 +1,1712 @@
+{
+  "schema_version": 1,
+  "description": "中文资料笔记来源清单；不包含外部文章全文或视频字幕。",
+  "sources": [
+    {
+      "id": 1,
+      "title": "注意力中 √dₖ 缩放因子的数学原理",
+      "original_title": "Math behind √dₖ Scaling Factor in Attention",
+      "source_url": "https://outcomeschool.com/blog/scaling-dot-product-attention",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:30+00:00",
+      "category": "LLM 架构与分词",
+      "path": "scaling-dot-product-attention.md",
+      "related_ids": [
+        2,
+        6,
+        75
+      ]
+    },
+    {
+      "id": 2,
+      "title": "注意力的数学原理：Q、K 和 V",
+      "original_title": "Math behind Attention - Q, K, and V",
+      "source_url": "https://outcomeschool.com/blog/math-behind-attention-qkv",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:30+00:00",
+      "category": "LLM 架构与分词",
+      "path": "math-behind-attention-qkv.md",
+      "related_ids": [
+        1,
+        74,
+        75
+      ]
+    },
+    {
+      "id": 3,
+      "title": "什么是 LLM 中的 KV 缓存？",
+      "original_title": "What is KV Cache in LLMs?",
+      "source_url": "https://outcomeschool.com/blog/kv-cache-in-llms",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:29+00:00",
+      "category": "推理优化与硬件",
+      "path": "kv-cache-in-llms.md",
+      "related_ids": [
+        4,
+        5,
+        22
+      ]
+    },
+    {
+      "id": 4,
+      "title": "KV 缓存压缩",
+      "original_title": "KV Cache Compression",
+      "source_url": "https://outcomeschool.com/blog/kv-cache-compression",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:29+00:00",
+      "category": "推理优化与硬件",
+      "path": "kv-cache-compression.md",
+      "related_ids": [
+        3,
+        5,
+        22
+      ]
+    },
+    {
+      "id": 5,
+      "title": "分组查询注意力",
+      "original_title": "Grouped Query Attention",
+      "source_url": "https://outcomeschool.com/blog/grouped-query-attention",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:30+00:00",
+      "category": "LLM 架构与分词",
+      "path": "grouped-query-attention.md",
+      "related_ids": [
+        3,
+        4,
+        75
+      ]
+    },
+    {
+      "id": 6,
+      "title": "解析 LLM 中的 FlashAttention",
+      "original_title": "Decoding Flash Attention in LLMs",
+      "source_url": "https://outcomeschool.com/blog/decoding-flash-attention",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:30+00:00",
+      "category": "推理优化与硬件",
+      "path": "decoding-flash-attention.md",
+      "related_ids": [
+        1,
+        2,
+        98
+      ]
+    },
+    {
+      "id": 7,
+      "title": "字节对编码（BPE）",
+      "original_title": "Byte Pair Encoding",
+      "source_url": "https://outcomeschool.com/blog/bpe-in-llms",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:30+00:00",
+      "category": "LLM 架构与分词",
+      "path": "bpe-in-llms.md",
+      "related_ids": [
+        8,
+        9,
+        82
+      ]
+    },
+    {
+      "id": 8,
+      "title": "大语言模型（LLM）中的分词",
+      "original_title": "Tokenization in Large Language Models (LLMs)",
+      "source_url": "https://www.youtube.com/watch?v=sK2s9I84EVI",
+      "source_type": "video",
+      "access_status": "transcript_unavailable",
+      "retrieved_at": "2026-09-29T04:22:31+00:00",
+      "category": "LLM 架构与分词",
+      "path": "video-sK2s9I84EVI.md",
+      "related_ids": [
+        7,
+        9,
+        81
+      ]
+    },
+    {
+      "id": 9,
+      "title": "LLM 中的位置嵌入",
+      "original_title": "Positional Embeddings in LLMs",
+      "source_url": "https://outcomeschool.substack.com/p/positional-embeddings-in-llms",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:31+00:00",
+      "category": "LLM 架构与分词",
+      "path": "positional-embeddings-in-llms.md",
+      "related_ids": [
+        10,
+        19,
+        81
+      ]
+    },
+    {
+      "id": 10,
+      "title": "RoPE（旋转位置嵌入）的数学原理",
+      "original_title": "Math Behind RoPE (Rotary Position Embedding)",
+      "source_url": "https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:31+00:00",
+      "category": "LLM 架构与分词",
+      "path": "math-behind-rope-rotary-position-embedding.md",
+      "related_ids": [
+        9,
+        16,
+        81
+      ]
+    },
+    {
+      "id": 11,
+      "title": "混合专家模型详解",
+      "original_title": "Mixture of Experts Explained",
+      "source_url": "https://outcomeschool.com/blog/mixture-of-experts",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:31+00:00",
+      "category": "LLM 架构与分词",
+      "path": "mixture-of-experts.md",
+      "related_ids": [
+        4,
+        53,
+        86
+      ]
+    },
+    {
+      "id": 12,
+      "title": "解析 InstructGPT",
+      "original_title": "Decoding InstructGPT",
+      "source_url": "https://outcomeschool.com/blog/decoding-instructgpt",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:32+00:00",
+      "category": "微调、后训练与对齐",
+      "path": "decoding-instructgpt.md",
+      "related_ids": [
+        13,
+        51,
+        52
+      ]
+    },
+    {
+      "id": 13,
+      "title": "基于人类反馈的强化学习（RLHF）",
+      "original_title": "Reinforcement Learning from Human Feedback (RLHF)",
+      "source_url": "https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:32+00:00",
+      "category": "微调、后训练与对齐",
+      "path": "reinforcement-learning-from-human-feedback-rlhf.md",
+      "related_ids": [
+        12,
+        51,
+        52
+      ]
+    },
+    {
+      "id": 14,
+      "title": "温度如何控制 LLM 输出？",
+      "original_title": "How does Temperature control LLM output?",
+      "source_url": "https://outcomeschool.com/blog/how-does-temperature-control-llm-output",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:32+00:00",
+      "category": "推理优化与硬件",
+      "path": "how-does-temperature-control-llm-output.md",
+      "related_ids": [
+        15,
+        36,
+        59
+      ]
+    },
+    {
+      "id": 15,
+      "title": "top-k 和 top-p 采样如何工作？",
+      "original_title": "How do Top-k and Top-p Sampling work?",
+      "source_url": "https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:32+00:00",
+      "category": "推理优化与硬件",
+      "path": "how-do-top-k-and-top-p-sampling-work.md",
+      "related_ids": [
+        14,
+        36,
+        76
+      ]
+    },
+    {
+      "id": 16,
+      "title": "LLM 的“中间信息丢失”问题",
+      "original_title": "The Lost in the Middle Problem in LLMs",
+      "source_url": "https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:33+00:00",
+      "category": "LLM 架构与分词",
+      "path": "lost-in-the-middle-problem-in-llms.md",
+      "related_ids": [
+        33,
+        35,
+        104
+      ]
+    },
+    {
+      "id": 17,
+      "title": "RMSNorm（均方根层归一化）",
+      "original_title": "RMSNorm (Root Mean Square Layer Normalization)",
+      "source_url": "https://outcomeschool.com/blog/rmsnorm-root-mean-square-layer-normalization",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:33+00:00",
+      "category": "LLM 架构与分词",
+      "path": "rmsnorm-root-mean-square-layer-normalization.md",
+      "related_ids": [
+        18,
+        19,
+        84
+      ]
+    },
+    {
+      "id": 18,
+      "title": "LLM 中的前馈网络",
+      "original_title": "Feed-Forward Networks in LLMs",
+      "source_url": "https://outcomeschool.com/blog/feed-forward-networks-in-llms",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:33+00:00",
+      "category": "LLM 架构与分词",
+      "path": "feed-forward-networks-in-llms.md",
+      "related_ids": [
+        11,
+        17,
+        19
+      ]
+    },
+    {
+      "id": 19,
+      "title": "解析 Transformer 架构",
+      "original_title": "Decoding Transformer Architecture",
+      "source_url": "https://outcomeschool.com/blog/decoding-transformer-architecture",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:33+00:00",
+      "category": "LLM 架构与分词",
+      "path": "decoding-transformer-architecture.md",
+      "related_ids": [
+        2,
+        18,
+        74
+      ]
+    },
+    {
+      "id": 20,
+      "title": "预填充与解码：LLM 推理优化",
+      "original_title": "Prefill vs Decode: LLM Inference Optimization",
+      "source_url": "https://outcomeschool.com/blog/prefill-vs-decode-llm-inference-optimization",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:33+00:00",
+      "category": "推理优化与硬件",
+      "path": "prefill-vs-decode-llm-inference-optimization.md",
+      "related_ids": [
+        21,
+        24,
+        32
+      ]
+    },
+    {
+      "id": 21,
+      "title": "LLM 中的连续批处理",
+      "original_title": "Continuous Batching in LLMs",
+      "source_url": "https://outcomeschool.com/blog/continuous-batching-in-llms",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:35+00:00",
+      "category": "推理优化与硬件",
+      "path": "continuous-batching-in-llms.md",
+      "related_ids": [
+        20,
+        22,
+        23
+      ]
+    },
+    {
+      "id": 22,
+      "title": "LLM 中的分页注意力",
+      "original_title": "Paged Attention in LLMs",
+      "source_url": "https://outcomeschool.com/blog/paged-attention-in-llms",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:34+00:00",
+      "category": "推理优化与硬件",
+      "path": "paged-attention-in-llms.md",
+      "related_ids": [
+        3,
+        21,
+        25
+      ]
+    },
+    {
+      "id": 23,
+      "title": "vLLM 如何工作？",
+      "original_title": "How does vLLM work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-vllm-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:34+00:00",
+      "category": "推理优化与硬件",
+      "path": "how-does-vllm-work.md",
+      "related_ids": [
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "id": 24,
+      "title": "推测解码",
+      "original_title": "Speculative Decoding",
+      "source_url": "https://outcomeschool.com/blog/speculative-decoding",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:34+00:00",
+      "category": "推理优化与硬件",
+      "path": "speculative-decoding.md",
+      "related_ids": [
+        14,
+        20,
+        100
+      ]
+    },
+    {
+      "id": 25,
+      "title": "提示词缓存如何工作？",
+      "original_title": "How does Prompt Caching work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-prompt-caching-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:34+00:00",
+      "category": "推理优化与硬件",
+      "path": "how-does-prompt-caching-work.md",
+      "related_ids": [
+        3,
+        22,
+        72
+      ]
+    },
+    {
+      "id": 26,
+      "title": "模型量化如何工作？",
+      "original_title": "How does Model Quantization work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-model-quantization-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:36+00:00",
+      "category": "推理优化与硬件",
+      "path": "how-does-model-quantization-work.md",
+      "related_ids": [
+        4,
+        54,
+        97
+      ]
+    },
+    {
+      "id": 27,
+      "title": "LLM 中的首 token 延迟问题",
+      "original_title": "The First-Token Latency Problem in LLMs",
+      "source_url": "https://www.youtube.com/watch?v=XD8DD4cEHu0",
+      "source_type": "video",
+      "access_status": "transcript_unavailable",
+      "retrieved_at": "2026-09-29T04:22:36+00:00",
+      "category": "推理优化与硬件",
+      "path": "video-XD8DD4cEHu0.md",
+      "related_ids": [
+        20,
+        25,
+        76
+      ]
+    },
+    {
+      "id": 28,
+      "title": "SGLang 如何工作？",
+      "original_title": "How does SGLang work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-sglang-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:36+00:00",
+      "category": "推理优化与硬件",
+      "path": "how-does-sglang-work.md",
+      "related_ids": [
+        23,
+        25,
+        29
+      ]
+    },
+    {
+      "id": 29,
+      "title": "TensorRT-LLM 如何工作？",
+      "original_title": "How does TensorRT-LLM work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-tensorrt-llm-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:36+00:00",
+      "category": "推理优化与硬件",
+      "path": "how-does-tensorrt-llm-work.md",
+      "related_ids": [
+        6,
+        20,
+        26
+      ]
+    },
+    {
+      "id": 30,
+      "title": "LLM 推理优化",
+      "original_title": "LLM Inference Optimization",
+      "source_url": "https://www.youtube.com/watch?v=jV2sCj4lHYk",
+      "source_type": "video",
+      "access_status": "transcript_unavailable",
+      "retrieved_at": "2026-09-29T04:22:36+00:00",
+      "category": "推理优化与硬件",
+      "path": "video-jV2sCj4lHYk.md",
+      "related_ids": [
+        20,
+        26,
+        31
+      ]
+    },
+    {
+      "id": 31,
+      "title": "LLM 推理优化",
+      "original_title": "LLM Inference Optimization",
+      "source_url": "https://outcomeschool.com/blog/llm-inference-optimization",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:37+00:00",
+      "category": "推理优化与硬件",
+      "path": "llm-inference-optimization.md",
+      "related_ids": [
+        20,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 32,
+      "title": "LLM 推理中的预填充与解码分离",
+      "original_title": "Prefill-Decode Disaggregation in LLM Inference",
+      "source_url": "https://outcomeschool.com/blog/prefill-decode-disaggregation",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:37+00:00",
+      "category": "推理优化与硬件",
+      "path": "prefill-decode-disaggregation.md",
+      "related_ids": [
+        3,
+        20,
+        21
+      ]
+    },
+    {
+      "id": 33,
+      "title": "RAG 分块策略",
+      "original_title": "Chunking Strategies for RAG",
+      "source_url": "https://outcomeschool.com/blog/chunking-strategies-for-rag",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:38+00:00",
+      "category": "RAG 与检索",
+      "path": "chunking-strategies-for-rag.md",
+      "related_ids": [
+        16,
+        35,
+        104
+      ]
+    },
+    {
+      "id": 34,
+      "title": "混合搜索如何工作？",
+      "original_title": "How does Hybrid Search work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-hybrid-search-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:38+00:00",
+      "category": "RAG 与检索",
+      "path": "how-does-hybrid-search-work.md",
+      "related_ids": [
+        35,
+        39,
+        70
+      ]
+    },
+    {
+      "id": 35,
+      "title": "重排序器如何工作？",
+      "original_title": "How does a Reranker work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-a-reranker-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:38+00:00",
+      "category": "RAG 与检索",
+      "path": "how-does-a-reranker-work.md",
+      "related_ids": [
+        33,
+        34,
+        101
+      ]
+    },
+    {
+      "id": 36,
+      "title": "LLM 评估",
+      "original_title": "LLM Evaluation",
+      "source_url": "https://outcomeschool.com/blog/llm-evaluation",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:38+00:00",
+      "category": "评估与可观测性",
+      "path": "llm-evaluation.md",
+      "related_ids": [
+        59,
+        60,
+        61
+      ]
+    },
+    {
+      "id": 37,
+      "title": "HyDE 在 RAG 中如何工作？",
+      "original_title": "How does HyDE work in RAG?",
+      "source_url": "https://outcomeschool.com/blog/how-does-hyde-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:38+00:00",
+      "category": "RAG 与检索",
+      "path": "how-does-hyde-work.md",
+      "related_ids": [
+        34,
+        35,
+        38
+      ]
+    },
+    {
+      "id": 38,
+      "title": "智能体式 RAG",
+      "original_title": "Agentic RAG",
+      "source_url": "https://outcomeschool.com/blog/agentic-rag",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:39+00:00",
+      "category": "RAG 与检索",
+      "path": "agentic-rag.md",
+      "related_ids": [
+        41,
+        43,
+        50
+      ]
+    },
+    {
+      "id": 39,
+      "title": "近似最近邻（ANN）搜索如何工作？",
+      "original_title": "How does Approximate Nearest Neighbor (ANN) search work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:39+00:00",
+      "category": "RAG 与检索",
+      "path": "how-does-approximate-nearest-neighbor-ann-search-work.md",
+      "related_ids": [
+        34,
+        40,
+        70
+      ]
+    },
+    {
+      "id": 40,
+      "title": "向量数据库如何工作？",
+      "original_title": "How does a Vector Database work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-a-vector-database-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:39+00:00",
+      "category": "RAG 与检索",
+      "path": "how-does-a-vector-database-work.md",
+      "related_ids": [
+        33,
+        39,
+        70
+      ]
+    },
+    {
+      "id": 41,
+      "title": "ReAct 智能体",
+      "original_title": "ReAct Agent",
+      "source_url": "https://outcomeschool.com/blog/react-agent",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:39+00:00",
+      "category": "智能体与上下文工程",
+      "path": "react-agent.md",
+      "related_ids": [
+        43,
+        44,
+        50
+      ]
+    },
+    {
+      "id": 42,
+      "title": "思维链（CoT）提示如何工作？",
+      "original_title": "How does Chain-of-Thought (CoT) Prompting work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-chain-of-thought-prompting-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:39+00:00",
+      "category": "智能体与上下文工程",
+      "path": "how-does-chain-of-thought-prompting-work.md",
+      "related_ids": [
+        36,
+        41,
+        87
+      ]
+    },
+    {
+      "id": 43,
+      "title": "AI 智能体循环",
+      "original_title": "AI Agent Loop",
+      "source_url": "https://outcomeschool.com/blog/ai-agent-loop",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:41+00:00",
+      "category": "智能体与上下文工程",
+      "path": "ai-agent-loop.md",
+      "related_ids": [
+        44,
+        48,
+        50
+      ]
+    },
+    {
+      "id": 44,
+      "title": "LLM 中的函数调用如何工作？",
+      "original_title": "How does Function Calling work in LLMs?",
+      "source_url": "https://outcomeschool.com/blog/how-does-function-calling-work-in-llms",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:40+00:00",
+      "category": "智能体与上下文工程",
+      "path": "how-does-function-calling-work-in-llms.md",
+      "related_ids": [
+        43,
+        46,
+        62
+      ]
+    },
+    {
+      "id": 45,
+      "title": "AI 工程详解：LLM、RAG、MCP、智能体、微调与量化",
+      "original_title": "AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization",
+      "source_url": "https://www.youtube.com/watch?v=lnfWvX66FUk",
+      "source_type": "video",
+      "access_status": "transcript_unavailable",
+      "retrieved_at": "2026-09-29T04:22:41+00:00",
+      "category": "智能体与上下文工程",
+      "path": "video-lnfWvX66FUk.md",
+      "related_ids": [
+        38,
+        43,
+        46,
+        55,
+        26
+      ]
+    },
+    {
+      "id": 46,
+      "title": "什么是 MCP（模型上下文协议）？",
+      "original_title": "What is MCP (Model Context Protocol)?",
+      "source_url": "https://outcomeschool.com/blog/what-is-mcp-model-context-protocol",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:40+00:00",
+      "category": "智能体与上下文工程",
+      "path": "what-is-mcp-model-context-protocol.md",
+      "related_ids": [
+        44,
+        48,
+        62
+      ]
+    },
+    {
+      "id": 47,
+      "title": "多智能体系统",
+      "original_title": "Multi-Agent Systems",
+      "source_url": "https://outcomeschool.com/blog/multi-agent-systems",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:41+00:00",
+      "category": "智能体与上下文工程",
+      "path": "multi-agent-systems.md",
+      "related_ids": [
+        48,
+        61,
+        102
+      ]
+    },
+    {
+      "id": 48,
+      "title": "AI 编排",
+      "original_title": "AI Orchestration",
+      "source_url": "https://outcomeschool.com/blog/ai-orchestration",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:41+00:00",
+      "category": "智能体与上下文工程",
+      "path": "ai-orchestration.md",
+      "related_ids": [
+        43,
+        44,
+        47
+      ]
+    },
+    {
+      "id": 49,
+      "title": "AI 智能体记忆",
+      "original_title": "AI Agent Memory",
+      "source_url": "https://outcomeschool.com/blog/ai-agent-memory",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:42+00:00",
+      "category": "智能体与上下文工程",
+      "path": "ai-agent-memory.md",
+      "related_ids": [
+        25,
+        104,
+        105
+      ]
+    },
+    {
+      "id": 50,
+      "title": "修复 AI 智能体中的无限循环",
+      "original_title": "Fix an infinite loop in an AI agent",
+      "source_url": "https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-share-7440257380707364864-5Ycc",
+      "source_type": "post",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:31:07+00:00",
+      "category": "智能体与上下文工程",
+      "path": "post-agent-infinite-loop.md",
+      "related_ids": [
+        41,
+        43,
+        60
+      ]
+    },
+    {
+      "id": 51,
+      "title": "近端策略优化（PPO）",
+      "original_title": "Proximal Policy Optimization (PPO)",
+      "source_url": "https://outcomeschool.com/blog/proximal-policy-optimization-ppo",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:42+00:00",
+      "category": "微调、后训练与对齐",
+      "path": "proximal-policy-optimization-ppo.md",
+      "related_ids": [
+        13,
+        52,
+        53
+      ]
+    },
+    {
+      "id": 52,
+      "title": "直接偏好优化（DPO）",
+      "original_title": "Direct Preference Optimization (DPO)",
+      "source_url": "https://outcomeschool.com/blog/direct-preference-optimization-dpo",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:42+00:00",
+      "category": "微调、后训练与对齐",
+      "path": "direct-preference-optimization-dpo.md",
+      "related_ids": [
+        12,
+        13,
+        51
+      ]
+    },
+    {
+      "id": 53,
+      "title": "组相对策略优化（GRPO）",
+      "original_title": "Group Relative Policy Optimization (GRPO)",
+      "source_url": "https://outcomeschool.com/blog/group-relative-policy-optimization-grpo",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:42+00:00",
+      "category": "微调、后训练与对齐",
+      "path": "group-relative-policy-optimization-grpo.md",
+      "related_ids": [
+        13,
+        51,
+        87
+      ]
+    },
+    {
+      "id": 54,
+      "title": "LoRA：LLM 的低秩适配",
+      "original_title": "LoRA - Low-Rank Adaptation of LLMs",
+      "source_url": "https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:43+00:00",
+      "category": "微调、后训练与对齐",
+      "path": "lora-low-rank-adaptation-of-llms.md",
+      "related_ids": [
+        26,
+        55,
+        56
+      ]
+    },
+    {
+      "id": 55,
+      "title": "微调如何工作？",
+      "original_title": "How does fine-tuning work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-fine-tuning-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:43+00:00",
+      "category": "微调、后训练与对齐",
+      "path": "how-does-fine-tuning-work.md",
+      "related_ids": [
+        38,
+        54,
+        57
+      ]
+    },
+    {
+      "id": 56,
+      "title": "前缀微调如何工作？",
+      "original_title": "How does Prefix Tuning work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-prefix-tuning-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:43+00:00",
+      "category": "微调、后训练与对齐",
+      "path": "how-does-prefix-tuning-work.md",
+      "related_ids": [
+        25,
+        54,
+        55
+      ]
+    },
+    {
+      "id": 57,
+      "title": "LLM 中的持续学习",
+      "original_title": "Continual Learning in LLMs",
+      "source_url": "https://outcomeschool.com/blog/continual-learning-in-llms",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:43+00:00",
+      "category": "微调、后训练与对齐",
+      "path": "continual-learning-in-llms.md",
+      "related_ids": [
+        49,
+        54,
+        55
+      ]
+    },
+    {
+      "id": 58,
+      "title": "知识蒸馏如何工作？",
+      "original_title": "How does Knowledge Distillation work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-knowledge-distillation-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:43+00:00",
+      "category": "微调、后训练与对齐",
+      "path": "how-does-knowledge-distillation-work.md",
+      "related_ids": [
+        14,
+        55,
+        90
+      ]
+    },
+    {
+      "id": 59,
+      "title": "使用 LLM 作为裁判",
+      "original_title": "LLM as a Judge",
+      "source_url": "https://outcomeschool.com/blog/llm-as-a-judge",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:44+00:00",
+      "category": "评估与可观测性",
+      "path": "llm-as-a-judge.md",
+      "related_ids": [
+        36,
+        61,
+        62
+      ]
+    },
+    {
+      "id": 60,
+      "title": "AI 智能体可观测性",
+      "original_title": "AI Agent Observability",
+      "source_url": "https://outcomeschool.com/blog/ai-agent-observability",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:44+00:00",
+      "category": "评估与可观测性",
+      "path": "ai-agent-observability.md",
+      "related_ids": [
+        36,
+        43,
+        61
+      ]
+    },
+    {
+      "id": 61,
+      "title": "AI 智能体评估",
+      "original_title": "AI Agent Evaluation",
+      "source_url": "https://outcomeschool.com/blog/ai-agent-evaluation",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:44+00:00",
+      "category": "评估与可观测性",
+      "path": "ai-agent-evaluation.md",
+      "related_ids": [
+        36,
+        43,
+        60
+      ]
+    },
+    {
+      "id": 62,
+      "title": "LLM 中的提示词注入",
+      "original_title": "Prompt Injection in LLMs",
+      "source_url": "https://outcomeschool.com/blog/prompt-injection-in-llms",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:44+00:00",
+      "category": "安全与防护",
+      "path": "prompt-injection-in-llms.md",
+      "related_ids": [
+        44,
+        46,
+        63
+      ]
+    },
+    {
+      "id": 63,
+      "title": "LLM 安全护栏如何工作？",
+      "original_title": "How do LLM guardrails work?",
+      "source_url": "https://outcomeschool.com/blog/how-do-llm-guardrails-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:45+00:00",
+      "category": "安全与防护",
+      "path": "how-do-llm-guardrails-work.md",
+      "related_ids": [
+        44,
+        62,
+        76
+      ]
+    },
+    {
+      "id": 64,
+      "title": "多模态 AI",
+      "original_title": "Multimodal AI",
+      "source_url": "https://outcomeschool.com/blog/multimodal-ai",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:45+00:00",
+      "category": "多模态与语音",
+      "path": "multimodal-ai.md",
+      "related_ids": [
+        65,
+        66,
+        67
+      ]
+    },
+    {
+      "id": 65,
+      "title": "解析视觉 Transformer（ViT）",
+      "original_title": "Decoding Vision Transformer (ViT)",
+      "source_url": "https://outcomeschool.com/blog/decoding-vision-transformer-vit",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:45+00:00",
+      "category": "多模态与语音",
+      "path": "decoding-vision-transformer-vit.md",
+      "related_ids": [
+        6,
+        64,
+        67
+      ]
+    },
+    {
+      "id": 66,
+      "title": "设计实时语音 AI 智能体",
+      "original_title": "Design a Real-Time Voice AI Agent",
+      "source_url": "https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:46+00:00",
+      "category": "多模态与语音",
+      "path": "design-a-real-time-voice-ai-agent.md",
+      "related_ids": [
+        43,
+        60,
+        64
+      ]
+    },
+    {
+      "id": 67,
+      "title": "图像嵌入如何工作？",
+      "original_title": "How do Image Embeddings work?",
+      "source_url": "https://outcomeschool.com/blog/how-do-image-embeddings-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:46+00:00",
+      "category": "多模态与语音",
+      "path": "how-do-image-embeddings-work.md",
+      "related_ids": [
+        39,
+        64,
+        93
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Cursor 如何工作？",
+      "original_title": "How does Cursor work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-cursor-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:46+00:00",
+      "category": "产品与部署设计",
+      "path": "how-does-cursor-work.md",
+      "related_ids": [
+        33,
+        69,
+        77
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Claude Code 如何工作？",
+      "original_title": "How does Claude Code work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-claude-code-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:46+00:00",
+      "category": "产品与部署设计",
+      "path": "how-does-claude-code-work.md",
+      "related_ids": [
+        43,
+        61,
+        77
+      ]
+    },
+    {
+      "id": 70,
+      "title": "语义搜索如何工作？",
+      "original_title": "How does Semantic Search work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-semantic-search-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:46+00:00",
+      "category": "RAG 与检索",
+      "path": "how-does-semantic-search-work.md",
+      "related_ids": [
+        34,
+        35,
+        40
+      ]
+    },
+    {
+      "id": 71,
+      "title": "LLM 路由",
+      "original_title": "LLM Routing",
+      "source_url": "https://outcomeschool.com/blog/llm-routing",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:46+00:00",
+      "category": "产品与部署设计",
+      "path": "llm-routing.md",
+      "related_ids": [
+        36,
+        48,
+        90
+      ]
+    },
+    {
+      "id": 72,
+      "title": "语义缓存如何工作？",
+      "original_title": "How does Semantic Caching work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-semantic-caching-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:47+00:00",
+      "category": "产品与部署设计",
+      "path": "how-does-semantic-caching-work.md",
+      "related_ids": [
+        25,
+        40,
+        70
+      ]
+    },
+    {
+      "id": 73,
+      "title": "走进 ChatGPT：按下回车后发生了什么",
+      "original_title": "Inside ChatGPT: What Happens After You Hit Enter",
+      "source_url": "https://outcomeschool.substack.com/p/inside-chatgpt-what-happens-after",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:47+00:00",
+      "category": "产品与部署设计",
+      "path": "inside-chatgpt-what-happens-after.md",
+      "related_ids": [
+        7,
+        19,
+        20
+      ]
+    },
+    {
+      "id": 74,
+      "title": "注意力中的因果掩码",
+      "original_title": "Causal Masking in Attention",
+      "source_url": "https://outcomeschool.com/blog/causal-masking-in-attention",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:47+00:00",
+      "category": "LLM 架构与分词",
+      "path": "causal-masking-in-attention.md",
+      "related_ids": [
+        2,
+        3,
+        79
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Transformer 中的多头注意力",
+      "original_title": "Multi-Head Attention in Transformers",
+      "source_url": "https://outcomeschool.com/blog/multi-head-attention-in-transformers",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:47+00:00",
+      "category": "LLM 架构与分词",
+      "path": "multi-head-attention-in-transformers.md",
+      "related_ids": [
+        2,
+        5,
+        79
+      ]
+    },
+    {
+      "id": 76,
+      "title": "token 流式传输如何工作？",
+      "original_title": "How does Token Streaming work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-token-streaming-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:48+00:00",
+      "category": "推理优化与硬件",
+      "path": "how-does-token-streaming-work.md",
+      "related_ids": [
+        20,
+        27,
+        63
+      ]
+    },
+    {
+      "id": 77,
+      "title": "AI 运行框架工程（Harness Engineering）",
+      "original_title": "Harness Engineering in AI",
+      "source_url": "https://outcomeschool.com/blog/harness-engineering-in-ai",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:48+00:00",
+      "category": "智能体与上下文工程",
+      "path": "harness-engineering-in-ai.md",
+      "related_ids": [
+        43,
+        60,
+        61
+      ]
+    },
+    {
+      "id": 78,
+      "title": "交叉熵损失的数学原理",
+      "original_title": "Math Behind Cross-Entropy Loss",
+      "source_url": "https://outcomeschool.com/blog/math-behind-cross-entropy-loss",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:48+00:00",
+      "category": "机器学习基础",
+      "path": "math-behind-cross-entropy-loss.md",
+      "related_ids": [
+        13,
+        84,
+        92
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Transformer 中的自注意力",
+      "original_title": "Self Attention in Transformers",
+      "source_url": "https://outcomeschool.com/blog/self-attention-in-transformers",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:48+00:00",
+      "category": "LLM 架构与分词",
+      "path": "self-attention-in-transformers.md",
+      "related_ids": [
+        2,
+        74,
+        75
+      ]
+    },
+    {
+      "id": 80,
+      "title": "滑动窗口注意力如何工作？",
+      "original_title": "How does Sliding Window Attention work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-sliding-window-attention-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:49+00:00",
+      "category": "LLM 架构与分词",
+      "path": "how-does-sliding-window-attention-work.md",
+      "related_ids": [
+        3,
+        4,
+        16
+      ]
+    },
+    {
+      "id": 81,
+      "title": "LLM 中的上下文窗口",
+      "original_title": "Context Window in LLMs",
+      "source_url": "https://www.linkedin.com/posts/amit-shekhar-iitbhu_the-context-window-is-the-llms-working-memory-activity-7437754426175672320-MH9c",
+      "source_type": "post",
+      "access_status": "visible_text_only",
+      "retrieved_at": "2026-09-29T04:31:08+00:00",
+      "category": "LLM 架构与分词",
+      "path": "post-context-window.md",
+      "related_ids": [
+        16,
+        49,
+        104
+      ]
+    },
+    {
+      "id": 82,
+      "title": "为什么 LLM 的上下文窗口有限？",
+      "original_title": "Why is the context window limited in LLMs?",
+      "source_url": "https://www.youtube.com/watch?v=CGIhxIaOg3M&lc",
+      "source_type": "video",
+      "access_status": "transcript_unavailable",
+      "retrieved_at": "2026-09-29T04:22:50+00:00",
+      "category": "LLM 架构与分词",
+      "path": "video-CGIhxIaOg3M.md",
+      "related_ids": [
+        3,
+        10,
+        16,
+        80
+      ]
+    },
+    {
+      "id": 83,
+      "title": "机器学习中的正则化：L1 与 L2",
+      "original_title": "Regularization in Machine Learning: L1 vs L2",
+      "source_url": "https://outcomeschool.com/blog/regularization-in-machine-learning",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:50+00:00",
+      "category": "机器学习基础",
+      "path": "regularization-in-machine-learning.md",
+      "related_ids": [
+        85,
+        91,
+        95
+      ]
+    },
+    {
+      "id": 84,
+      "title": "反向传播的数学原理",
+      "original_title": "Math Behind Backpropagation",
+      "source_url": "https://outcomeschool.com/blog/math-behind-backpropagation",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:50+00:00",
+      "category": "机器学习基础",
+      "path": "math-behind-backpropagation.md",
+      "related_ids": [
+        17,
+        78,
+        91
+      ]
+    },
+    {
+      "id": 85,
+      "title": "精确率与召回率",
+      "original_title": "Precision vs Recall",
+      "source_url": "https://outcomeschool.com/blog/precision-vs-recall",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:50+00:00",
+      "category": "机器学习基础",
+      "path": "precision-vs-recall.md",
+      "related_ids": [
+        36,
+        83,
+        92
+      ]
+    },
+    {
+      "id": 86,
+      "title": "DeepSeek-V4 架构详解",
+      "original_title": "DeepSeek-V4 Architecture Explained",
+      "source_url": "https://outcomeschool.com/blog/decoding-deepseek-v4",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:50+00:00",
+      "category": "LLM 架构与分词",
+      "path": "decoding-deepseek-v4.md",
+      "related_ids": [
+        4,
+        11,
+        20,
+        80
+      ]
+    },
+    {
+      "id": 87,
+      "title": "大型推理模型（LRM）",
+      "original_title": "Large Reasoning Models (LRMs)",
+      "source_url": "https://outcomeschool.com/blog/large-reasoning-models",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:51+00:00",
+      "category": "LLM 架构与分词",
+      "path": "large-reasoning-models.md",
+      "related_ids": [
+        42,
+        51,
+        53,
+        71
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Transformer 中的编码器与解码器",
+      "original_title": "Encoder vs Decoder in Transformers",
+      "source_url": "https://outcomeschool.com/blog/encoder-vs-decoder-in-transformers",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:51+00:00",
+      "category": "LLM 架构与分词",
+      "path": "encoder-vs-decoder-in-transformers.md",
+      "related_ids": [
+        19,
+        74,
+        75
+      ]
+    },
+    {
+      "id": 89,
+      "title": "计算机操作智能体如何工作？",
+      "original_title": "How do Computer-Use Agents work?",
+      "source_url": "https://outcomeschool.com/blog/how-do-computer-use-agents-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:51+00:00",
+      "category": "智能体与上下文工程",
+      "path": "how-do-computer-use-agents-work.md",
+      "related_ids": [
+        43,
+        44,
+        60,
+        62
+      ]
+    },
+    {
+      "id": 90,
+      "title": "小语言模型（SLM）",
+      "original_title": "Small Language Models (SLMs)",
+      "source_url": "https://outcomeschool.com/blog/small-language-models-slms",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:51+00:00",
+      "category": "产品与部署设计",
+      "path": "small-language-models-slms.md",
+      "related_ids": [
+        26,
+        55,
+        58,
+        71,
+        97
+      ]
+    },
+    {
+      "id": 91,
+      "title": "梯度下降的数学原理",
+      "original_title": "Math Behind Gradient Descent",
+      "source_url": "https://outcomeschool.com/blog/math-behind-gradient-descent",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:52+00:00",
+      "category": "机器学习基础",
+      "path": "math-behind-gradient-descent.md",
+      "related_ids": [
+        78,
+        83,
+        84,
+        92
+      ]
+    },
+    {
+      "id": 92,
+      "title": "线性回归与逻辑回归",
+      "original_title": "Linear Regression vs Logistic Regression",
+      "source_url": "https://outcomeschool.com/blog/linear-regression-vs-logistic-regression",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:52+00:00",
+      "category": "机器学习基础",
+      "path": "linear-regression-vs-logistic-regression.md",
+      "related_ids": [
+        78,
+        83,
+        85,
+        91
+      ]
+    },
+    {
+      "id": 93,
+      "title": "什么是对比学习？",
+      "original_title": "What is Contrastive Learning?",
+      "source_url": "https://outcomeschool.com/blog/contrastive-learning",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:53+00:00",
+      "category": "机器学习基础",
+      "path": "contrastive-learning.md",
+      "related_ids": [
+        34,
+        35,
+        67,
+        70,
+        101
+      ]
+    },
+    {
+      "id": 94,
+      "title": "循环神经网络（RNN）",
+      "original_title": "Recurrent Neural Network (RNN)",
+      "source_url": "https://outcomeschool.com/blog/recurrent-neural-network",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:52+00:00",
+      "category": "机器学习基础",
+      "path": "recurrent-neural-network.md",
+      "related_ids": [
+        84,
+        91,
+        96
+      ]
+    },
+    {
+      "id": 95,
+      "title": "机器学习中的特征工程",
+      "original_title": "Feature Engineering in Machine Learning",
+      "source_url": "https://outcomeschool.com/blog/feature-engineering",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:53+00:00",
+      "category": "机器学习基础",
+      "path": "feature-engineering.md",
+      "related_ids": [
+        36,
+        83,
+        85,
+        92
+      ]
+    },
+    {
+      "id": 96,
+      "title": "RNN 与 Transformer 有何区别？",
+      "original_title": "How do RNNs and Transformers differ?",
+      "source_url": "https://outcomeschool.com/blog/how-do-rnns-and-transformers-differ",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:53+00:00",
+      "category": "机器学习基础",
+      "path": "how-do-rnns-and-transformers-differ.md",
+      "related_ids": [
+        3,
+        19,
+        20,
+        94
+      ]
+    },
+    {
+      "id": 97,
+      "title": "云端与端侧模型部署",
+      "original_title": "Cloud vs On-Device Model Deployment",
+      "source_url": "https://outcomeschool.com/blog/cloud-vs-on-device-model-deployment",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:54+00:00",
+      "category": "产品与部署设计",
+      "path": "cloud-vs-on-device-model-deployment.md",
+      "related_ids": [
+        26,
+        66,
+        90,
+        98
+      ]
+    },
+    {
+      "id": 98,
+      "title": "GPU 如何用于深度学习？",
+      "original_title": "How does a GPU work for Deep Learning?",
+      "source_url": "https://outcomeschool.com/blog/how-does-a-gpu-work-for-deep-learning",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:54+00:00",
+      "category": "推理优化与硬件",
+      "path": "how-does-a-gpu-work-for-deep-learning.md",
+      "related_ids": [
+        20,
+        21,
+        26,
+        99
+      ]
+    },
+    {
+      "id": 99,
+      "title": "LPU 如何工作？",
+      "original_title": "How does an LPU work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-an-lpu-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:54+00:00",
+      "category": "推理优化与硬件",
+      "path": "how-does-an-lpu-work.md",
+      "related_ids": [
+        20,
+        21,
+        97,
+        98
+      ]
+    },
+    {
+      "id": 100,
+      "title": "LLM 中的 N-gram 推测",
+      "original_title": "N-gram Speculation in LLMs",
+      "source_url": "https://outcomeschool.com/blog/n-gram-speculation-in-llms",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:54+00:00",
+      "category": "推理优化与硬件",
+      "path": "n-gram-speculation-in-llms.md",
+      "related_ids": [
+        7,
+        20,
+        24
+      ]
+    },
+    {
+      "id": 101,
+      "title": "ColBERT：后期交互检索详解",
+      "original_title": "ColBERT - Late Interaction Retrieval Explained",
+      "source_url": "https://outcomeschool.com/blog/decoding-colbert",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:54+00:00",
+      "category": "RAG 与检索",
+      "path": "decoding-colbert.md",
+      "related_ids": [
+        34,
+        35,
+        39,
+        40,
+        93
+      ]
+    },
+    {
+      "id": 102,
+      "title": "AI 子智能体",
+      "original_title": "AI SubAgents",
+      "source_url": "https://outcomeschool.com/blog/ai-subagents",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:54+00:00",
+      "category": "智能体与上下文工程",
+      "path": "ai-subagents.md",
+      "related_ids": [
+        43,
+        47,
+        48,
+        60
+      ]
+    },
+    {
+      "id": 103,
+      "title": "GraphRAG",
+      "original_title": "GraphRAG",
+      "source_url": "https://outcomeschool.com/blog/graphrag",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:55+00:00",
+      "category": "RAG 与检索",
+      "path": "graphrag.md",
+      "related_ids": [
+        33,
+        38,
+        40,
+        70,
+        104
+      ]
+    },
+    {
+      "id": 104,
+      "title": "上下文工程",
+      "original_title": "Context Engineering",
+      "source_url": "https://outcomeschool.com/blog/context-engineering",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:55+00:00",
+      "category": "智能体与上下文工程",
+      "path": "context-engineering.md",
+      "related_ids": [
+        16,
+        49,
+        62,
+        77,
+        105
+      ]
+    },
+    {
+      "id": 105,
+      "title": "上下文压缩如何工作？",
+      "original_title": "How does context compaction work?",
+      "source_url": "https://outcomeschool.com/blog/how-does-context-compaction-work",
+      "source_type": "article",
+      "access_status": "readable",
+      "retrieved_at": "2026-09-29T04:22:55+00:00",
+      "category": "智能体与上下文工程",
+      "path": "how-does-context-compaction-work.md",
+      "related_ids": [
+        16,
+        43,
+        49,
+        60,
+        104
+      ]
+    }
+  ]
+}
